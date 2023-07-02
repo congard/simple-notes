@@ -11,6 +11,7 @@ ErrorBox::ErrorBox(const Error &error, QWidget *parent)
             case Error::Type::Unknown: return tr("unknown");
             case Error::Type::Internal: return tr("internal");
             case Error::Type::Firebase: return tr("firebase");
+            default: throw std::runtime_error("Unknown error type");
         }
     }();
 
