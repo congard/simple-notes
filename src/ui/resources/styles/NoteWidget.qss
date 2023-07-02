@@ -1,0 +1,16 @@
+#NoteWidget {
+    border-width: 1px;
+    border-style: solid;
+    border-color: dimgray;
+    border-radius: 4px;
+}
+
+#title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#date {
+    /* font-size: 12px; */
+    font-weight: 200;
+}
